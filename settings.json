@@ -76,5 +76,23 @@
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "newUntitledFile",
-    "trunk.trunkGrayOutNonBlockingIssues": false
+    "trunk.trunkGrayOutNonBlockingIssues": false,
+    "workbench.colorTheme": "Dracula Soft",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "tabnine.experimentalAutoImports": true,
+    "cSpell.customDictionaries": {
+      "custom-dictionary-user": {
+        "name": "custom-dictionary-user",
+        "path": "~/.cspell/custom-dictionary-user.txt",
+        "addWords": true,
+        "scope": "user"
+      }
+    },
+    "workbench.sideBar.location": "right",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1,
+    "gitlens.advanced.messages": {
+      "suppressGitDisabledWarning": true,
+      "suppressGitMissingWarning": true
+    }
 }

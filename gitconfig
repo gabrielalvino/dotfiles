@@ -54,4 +54,10 @@
   defaultBranch = master
 [user]
 	email = gabrielalvino2008@gmail.com
-	name = cd ~/code/$GITHUB_USERNAME/dotfiles && zsh git_setup.sh
+	name = gabrielalvino
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
